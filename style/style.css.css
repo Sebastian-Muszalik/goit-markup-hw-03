@@ -1,0 +1,86 @@
+.post1 {
+  color: #212121;
+}
+.post2 {
+  color: #757575;
+}
+.post3 {
+  color: #ffffff;
+}
+.post4 {
+  font-family: "Roboto";
+}
+.post5 {
+  font-weight: 500;
+}
+.post5-7 {
+  font-weight: 700;
+}
+.post5-4 {
+  font-weight: 400;
+}
+.post6 {
+  font-family: "Raleway";
+  font-weight: 700;
+}
+.post7 {
+  font-weight: 400;
+}
+h1 {
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #ffffff;
+}
+.beckgrund-h1 {
+  background: #2f303a;
+}
+.beckgrund-foot {
+  background: #2f303a;
+}
+li {
+  list-style: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+.buton {
+  background: #2196f3;
+}
+.links:hover {
+  color: #2196f3;
+}
+.links:focus {
+  color: #2196f3;
+}
+.links:active {
+  color: aqua;
+}
+.links {
+  cursor: pointer;
+}
+.boton-pord:hover {
+  background: #2196f3;
+  color: #ffffff;
+}
+.contener {
+  width: 1600px;
+
+  margin: auto;
+  padding: 15px 15px 15px 15px;
+}
+.contener-head {
+  width: 1600px;
+  height: 80px;
+}
+.web-pading {
+  padding: 24px 93px 25px 215px;
+}
+.navi-head {
+  display: flex;
+  justify-content: space-between;
+}
