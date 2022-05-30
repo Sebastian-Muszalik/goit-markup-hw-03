@@ -1,0 +1,171 @@
+/* style ogólne  */
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
+}
+/* klasa dla head */
+.text-Web {
+  font: Raleway;
+  height: 700;
+  color: #212121;
+  line-height: 1.2;
+}
+.box {
+  align-items: baseline;
+}
+.box-nav {
+  padding-left: 93px;
+  padding-right: 46px;
+}
+.box-nav2 {
+  padding-left: 46px;
+  padding-right: 46px;
+}
+.box-nav3 {
+  padding-left: 46px;
+}
+.box-nav4 {
+  padding-left: 718px;
+  padding-right: 50px;
+}
+
+.higlight {
+  color: #2196f3;
+}
+.text-nav {
+  font-style: normal;
+  font-weight: 500;
+}
+.text-adress {
+  font-style: normal;
+  font-weight: 500;
+  color: #757575;
+}
+/* klasa dla linków  */
+a:hover,
+a:focus,
+a:active {
+  color: rgb(7, 7, 7);
+  color: #2196f3;
+  cursor: pointer;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  display: inline;
+}
+/* klasa button */
+.frame-button:hover {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: opx;
+  cursor: pointer;
+  line-height: 1.8;
+}
+
+.frame-button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #f5f4fa;
+  line-height: 1.8;
+}
+.button-front {
+  font-style: normal;
+  font-weight: 700;
+  color: #212121;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  line-height: 1.8;
+}
+.button-front:hover {
+  color: #ffffff;
+}
+.end-front {
+  display: inline;
+  display: flex;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+  align-items: center;
+}
+/* klasa main */
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+li {
+  display: inline;
+  list-style-type: none;
+}
+.lorem {
+  font-style: normal;
+  font-weight: 700;
+}
+.lorem-ipsum {
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+}
+.item-main {
+  font-style: normal;
+  font-weight: 700;
+}
+.manager {
+  font-style: normal;
+  font-weight: 500;
+}
+.manager-item {
+  font-style: normal;
+  font-weight: 400;
+}
+/* footer */
+.text-footer {
+  font-style: normal;
+  font-weight: 700;
+  color: #2196f3;
+}
+.text-studio {
+  color: #ffffff;
+}
+.end {
+  background: #2f303a;
+}
+.m-Warszaw {
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+.adres {
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio style */
+.image {
+  font-style: normal;
+  font-weight: 700;
+}
+.image-text {
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+}
