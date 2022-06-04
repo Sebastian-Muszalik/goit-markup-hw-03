@@ -1,0 +1,315 @@
+:root {
+  --color: #ffffff;
+  --color2: #2f303a;
+  --color3: #f5f4fa;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.color {
+  background-color: var(--color);
+}
+.color2 {
+  background-color: var(--color2);
+}
+.color3 {
+  background-color: var(--color3);
+}
+.color4 {
+  background-color: var(--color2);
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding: 94px 0;
+}
+
+/* klasa dla head */
+.text-Web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  color: #212121;
+  line-height: 1.2;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.head-menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.head-liste {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.head-list-item {
+  margin-left: 50px;
+}
+.head-list-adres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin-left: -50px;
+}
+.head-menu-adres {
+  margin-left: 46px;
+}
+.higlight {
+  color: #2196f3;
+}
+.text-nav {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.text-adress {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #757575;
+}
+
+/* klasa dla linków  */
+a:hover,
+a:focus,
+a:active {
+  color: rgb(7, 7, 7);
+  color: #2196f3;
+  cursor: pointer;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  display: inline;
+}
+/* klasa button */
+.frame-button:hover {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(143, 11, 11, 0.15);
+  border-radius: 4px;
+  border: opx;
+  cursor: pointer;
+  line-height: 1.8;
+  border: 0px;
+  padding: 10px 42px;
+  border-radius: 4px;
+}
+.buton-cont {
+  text-align: center;
+  padding: 200px 0;
+}
+.main-width {
+  max-width: 696px;
+}
+.frame-button2 {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #f5f4fa;
+  line-height: 1.8;
+}
+.button-front2 {
+  font-style: normal;
+  font-weight: 700;
+  color: #212121;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  line-height: 1.8;
+}
+.button-front2:hover {
+  color: #ffffff;
+  line-height: 1.8;
+}
+/* klasa button dla portfolio */
+.frame-button2:hover {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(143, 11, 11, 0.15);
+  border-radius: 4px;
+  border: opx;
+  cursor: pointer;
+}
+.frame-button {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+}
+.button-front {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+.button-front:hover {
+  color: #212121;
+}
+
+/* klasa main */
+.main-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  padding-bottom: 94px;
+}
+.main-item {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  max-width: 270px;
+}
+
+h1 {
+  max-width: 696px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #ffffff;
+  margin: 0 auto 30px;
+}
+li {
+  list-style-type: none;
+}
+
+.lorem {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+}
+.lorem-ipsum {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #757575;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+}
+.item-main {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.manager {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.manager-item {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.manegor-list-item {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.mag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-left: -30px;
+}
+.list-image {
+  min-width: 370px;
+  display: block;
+}
+
+.team-list {
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.13),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.team-imagen {
+  min-width: 270px;
+  display: block;
+}
+
+/* footer */
+.text-footer {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  color: #2196f3;
+  line-height: 1.2;
+}
+.Web-foot {
+  display: inline-block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-size: 26px;
+  margin-bottom: 20px;
+  line-height: 1.19em;
+}
+.m-Warszaw {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.adres {
+  margin-bottom: 9px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio style */
+.image {
+  font-style: normal;
+  font-weight: 700;
+}
+.image-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.footer {
+  padding: 60px 0;
+}
+.footer-nav:last-child {
+  margin-bottom: 0;
+}
