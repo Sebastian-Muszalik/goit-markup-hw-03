@@ -6,6 +6,9 @@
 * {
   margin: 0px;
   padding: 0px;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  outline: 0;
 }
 
 *,
@@ -27,19 +30,23 @@
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: 1600px;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* klasa dla head */
 .text-Web {
+  margin: right 93px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -48,16 +55,31 @@ body {
   font-size: 26px;
   text-transform: capitalize;
 }
+.text-Web2 {
+  margin-left: 145px;
+  margin: right 93px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  color: #212121;
+  line-height: 1.2;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+
 .head-menu {
+  height: 80px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  border: 1px;
+  border-color: 236, 236, 236, 1;
 }
 .head-liste {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: auto;
 }
 .head-list-item {
   margin-left: 50px;
@@ -121,10 +143,6 @@ a {
   max-width: 696px;
 }
 .frame-button2 {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   background: #f5f4fa;
   line-height: 1.8;
 }
@@ -132,11 +150,14 @@ a {
   font-style: normal;
   font-weight: 700;
   color: #212121;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   line-height: 1.8;
+  border: 0px;
+  padding: 6px 22px;
+  border-radius: 4px;
+  line-height: 1.625em;
+  letter-spacing: 0.03em;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-front2:hover {
   color: #ffffff;
@@ -296,20 +317,62 @@ li {
 }
 /* portfolio style */
 .image {
-  font-style: normal;
   font-weight: 700;
+  padding: 20px 24px 4px 24px;
 }
 .image-text {
-  font-style: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   font-weight: 400;
   margin-bottom: 9px;
+  padding: 0px 24px 20px 24px;
+  color: #757575;
 }
 .footer {
   padding: 60px 0;
 }
 .footer-nav:last-child {
   margin-bottom: 0;
+}
+/* portfolio style2 */
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-bottom: -8px;
+  padding-bottom: 50px;
+}
+.portfolio button {
+  border: 0px;
+  padding: 6px 22px;
+  border-radius: 4px;
+  line-height: 1.625em;
+  letter-spacing: 0.03em;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.portfolio-list-item {
+  background-color: #fff;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  max-width: 370px;
+}
+
+.portfolio-list-item figcaption {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.portfolio-list-item-image {
+  display: block;
 }
