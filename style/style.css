@@ -21,18 +21,22 @@
 }
 .color2 {
   background-color: var(--color2);
+  height: 600px;
 }
 .color3 {
   background-color: var(--color3);
+  height: 648px;
 }
 .color4 {
   background-color: var(--color2);
+  height: 252px;
 }
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   margin-left: -15px;
   margin-right: -15px;
   width: 1600px;
+  height: 2017px;
 }
 
 .container {
@@ -234,6 +238,7 @@ li {
   color: #757575;
   line-height: 1.71em;
   letter-spacing: 0.03em;
+  margin-bottom: -188px;
 }
 .item-main {
   font-weight: 700;
@@ -247,11 +252,15 @@ li {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .manager-item {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  padding-bottom: 30px;
+  color: rgba(117, 117, 117, 1);
 }
 .manegor-list-item {
   margin-bottom: 30px;
@@ -276,6 +285,7 @@ li {
   margin-left: 30px;
   margin-bottom: 30px;
 }
+
 .team-imagen {
   min-width: 270px;
   display: block;
@@ -283,6 +293,8 @@ li {
 
 /* footer */
 .text-footer {
+  margin-left: 215px;
+  margin: right 93px;
   font-size: 26px;
   font-family: "Raleway";
   font-style: normal;
@@ -291,6 +303,7 @@ li {
   line-height: 1.2;
 }
 .Web-foot {
+  margin: right 93px;
   display: inline-block;
   font-family: Raleway;
   font-style: normal;
@@ -302,6 +315,7 @@ li {
   line-height: 1.19em;
 }
 .m-Warszaw {
+  margin-left: 215px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -309,6 +323,7 @@ li {
   margin-bottom: 9px;
 }
 .adres {
+  margin-left: 215px;
   margin-bottom: 9px;
   font-size: 14px;
   font-style: normal;
@@ -375,4 +390,8 @@ li {
 
 .portfolio-list-item-image {
   display: block;
+}
+.musza {
+  margin-left: 20px;
+  width: calc((100%-30px) / 3);
 }
