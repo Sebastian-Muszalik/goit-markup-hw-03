@@ -18,7 +18,6 @@
 }
 .color {
   background-color: var(--color);
-  width: 100%;
 }
 .color2 {
   background-color: var(--color2);
@@ -28,7 +27,6 @@
 .color3 {
   background-color: var(--color3);
   height: 648px;
-  width: 100%;
 }
 .color4 {
   background-color: var(--color2);
@@ -47,10 +45,14 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.beckgrunt {
+  max-width: 1200px;
 }
 .lorem-bot {
   padding-bottom: 0;
@@ -82,8 +84,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border: 1px;
-  border-color: 236, 236, 236, 1;
+}
+.head-border {
+  border: 1px solid #ececec;
 }
 .head-liste {
   display: flex;
@@ -346,6 +349,7 @@ li {
 }
 .footer {
   padding: 60px 0;
+  width: 1600px;
 }
 .footer-nav:last-child {
   margin-bottom: 0;
@@ -390,14 +394,12 @@ li {
 }
 .portfolio-imag {
   width: 370px;
-  padding: 0 15px 30px 15px;
+  margin: 0 15px 30px 15px;
 }
-.portfolio-imag-end:nth-last-child(-n + 3) {
-  padding-bottom: 0;
-}
+
 .portfolio-imag:nth-last-child(-n + 3) {
   width: 370px;
-  padding: 0 15px 30px 15px;
+  margin: 0 15px 30px 15px;
 }
 .ul01 {
   display: flex;
