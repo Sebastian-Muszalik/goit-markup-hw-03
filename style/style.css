@@ -332,13 +332,10 @@ li {
 }
 
 .image-text {
-  width: 322px;
-  height: 30px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   font-weight: 400;
-  margin-bottom: 20x;
   padding: 4px 24px 20px 24px;
   color: #757575;
 }
@@ -392,11 +389,13 @@ li {
 .portfolio-imag {
   width: 370px;
   margin: 0 15px 30px 15px;
+  display: block;
 }
 
 .portfolio-imag:nth-last-child(-n + 3) {
   width: 370px;
   margin: 0 15px 30px 15px;
+  display: block;
 }
 .ul01 {
   display: flex;
@@ -405,6 +404,16 @@ li {
   margin-right: -15px;
 }
 .box {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-top: none;
+}
+.TŁO {
+  background-image: url(//images/compiuter.jpg);
+}
+.box-index {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.foto {
+  display: block;
 }
